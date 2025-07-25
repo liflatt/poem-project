@@ -30,20 +30,22 @@ form {
   color: #474a56;
 }
 
-.instructions {
+.input {
   padding: 16px;
   border: 1px solid rgba(39, 33, 66, 0.5);
   width: 80%;
   font-size: 16px;
+  font-family: "Urbanist", sans-serif;
+  color: #474a56;
   border-radius: 50px;
   line-height: 20px;
-  color: #474a56;
 }
 
 .submit-button {
   margin-left: 10px;
   background: #464868;
   color: white;
+  font-family: "Open Sans", sans-serif;
   border: none;
   width: 150px;
   font-size: 16px;
@@ -67,7 +69,6 @@ main {
 }
 
 footer {
-  font-style: italic;
   font-family: "Urbanist", sans-serif;
   font-weight: 300;
   font-size: 14px;
