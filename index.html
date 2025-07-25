@@ -4,41 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input
-          type="submit"
-          placeholder="Enter a topic or theme for your poem"
-        />
-      </form>
-      <div>Example: Wine, Dogs, Ice Cream, Tornadoes, Meetings</div>
-      <div>The poem will go here</div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://www.linkedin.com/in/lindseyflatt/" target="_blank"
-        >Lindsey Flatt</a
-      >, and is open-sourced on
-      <a href="https://github.com/liflatt/poem-project" target="_blank"
-        >GitHub</a
-      >, and is hosted on
-      <a href="https://lf-poem-generator.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+    <div class="container">
+      <header><h1>Poem Generator</h1></header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input
+            type="submit"
+            placeholder="Enter a topic or theme for your poem"
+            class="submit-button"
+          />
+        </form>
+        <div class="example">Example: orchid, stargazing, wine, tornadoes</div>
+        <div class="poem">The poem will go here</div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://www.linkedin.com/in/lindseyflatt/" target="_blank"
+          >Lindsey Flatt</a
+        >, and is open-sourced on
+        <a href="https://github.com/liflatt/poem-project" target="_blank"
+          >GitHub</a
+        >, and is hosted on
+        <a href="https://lf-poem-generator.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
