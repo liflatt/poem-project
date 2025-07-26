@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>AI Poem Generator</title>
   </head>
   <body>
@@ -26,18 +27,15 @@
               required
               autocomplete="off"
               class="input"
+              id="topic"
             />
-            <input
-              type="submit"
-              placeholder="Enter a topic or theme for your poem"
-              class="submit-button"
-            />
+            <input type="submit" class="submit-button" />
           </form>
           <div class="example">
             Example: orchid, stargazing, wine, tornadoes
           </div>
         </div>
-        <div class="poem" id="poem">The poem will go here</div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         This project was coded by
